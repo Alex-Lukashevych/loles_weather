@@ -40,6 +40,26 @@ ul {
   margin: 0px;
 }
 
+.span_text_stroke{
+  text-shadow: 
+		-0   -1px 1px #000000,
+		 0   -1px 1px #000000,
+		-0    1px 1px #000000,
+		 0    1px 1px #000000,
+		-1px -0   1px #000000,
+		 1px -0   1px #000000,
+		-1px  0   1px #000000,
+		 1px  0   1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000,
+		-1px -1px 1px #000000,
+		 1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		 1px  1px 1px #000000;
+}
+
 .span_logo {
   font-family: "Anton", sans-serif;
   font-size: 27px;
@@ -105,4 +125,8 @@ main {
   align-items: center;
   width: 15%;
   padding: 5px;
+}
+.top_main_section{
+  display: flex;
+  
 }
