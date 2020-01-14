@@ -106,3 +106,28 @@ main {
   width: 15%;
   padding: 5px;
 }
+.under_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.a_under_footer:active {
+  color: aquamarine;
+  text-decoration: none;
+}
+.a_under_footer:hover {
+  color: #000;
+  text-decoration: none;
+}
+.a_under_footer:link {
+  color: blue;
+  text-decoration: none;
+}
+.a_under_footer:visited {
+  color: blue;
+  text-decoration: none;
+}
+.rights {
+  display: flex;
+  justify-content: center;
+}
